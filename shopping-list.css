@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+    background-image: url('shopping-list-image.jpg');
+    font-family: cursive;
+}
+
+h1 {
+    margin-left: 210px;
+    margin-top: 35px;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+#add-items {
+    margin-left: 210px;
+    background: whitesmoke;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: double;
+    border-color: whitesmoke;
+    height: 33px;
+    width: 150px;
+    color: darkslategray;
+}
+
+#submit {
+    Background-color: whitesmoke;
+    border-width: 2px;
+    border-style: double;
+    border-radius: 7px;
+    font-size: 20px;
+    color: darkslategray;
+    height: 33px;
+    padding: 0 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+#list {
+    list-style: none;
+    text-align: left;
+    padding-left: 215px;
+}
+
+#list .items {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.checkbox {
+    /*float: left;*/
+    display: inline-block;
+    background-color: whitesmoke;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-top: 20px;
+    height: 17px;
+    width: 17px;
+}
+
+.ticked:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    color: darkslategray;
+    /*content: "✓";*/
+}
+
+
+/*background-color: red;*/
+
+.delete-box {
+    /*display: inline;*/
+    position: absolute;
+    left: 420;
+    padding-top: 12px;
+}
